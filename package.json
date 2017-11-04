@@ -1,15 +1,13 @@
 {
-  "version": "5.0.4",
+  "version": "5.1.0",
   "name": "octicons-with-cafe",
-  "description": "Fork of a scalable set of icons handcrafted with <3 by GitHub.",
+  "description":
+    "Fork of a scalable set of icons handcrafted with <3 by GitHub.",
   "author": "Ivan Vibe",
   "license": "(OFL-1.1 OR MIT)",
   "style": "build/octicons.css",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "build"
-  ],
+  "files": ["index.js", "build"],
   "repository": "https://github.com/ivibe/octicons-with-cafe.git",
   "bugs": {
     "url": "https://github.com/ivibe/octicons-with-cafe/issues"
@@ -20,19 +18,14 @@
     "test": "npm run build && ava --verbose \"test/**/*.js\""
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
-    "ava": "^0.16.0",
+    "autoprefixer": "^7.1.6",
+    "ava": "^0.23.0",
     "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-cssnano": "^2.1.0",
     "grunt-svgmin": "^4.0.0",
     "grunt-svgstore": "^1.0.0"
   },
-  "keywords": [
-    "GitHub",
-    "icons",
-    "svg",
-    "octicons"
-  ]
+  "keywords": ["GitHub", "icons", "svg", "octicons"]
 }
